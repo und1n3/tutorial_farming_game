@@ -6,5 +6,6 @@ extends Area2D
 
 func _on_body_entered(body: Node2D) -> void:
 	if body is Player:
-		print("Collected")
-		get_parent().queue_free() # parent because will add this to the object scene
+		print("Collected: ", collectable_name)
+		get_parent().queue_free() # parent because will add this to the collectable object scene
+								  # and we want to remove the full scene
