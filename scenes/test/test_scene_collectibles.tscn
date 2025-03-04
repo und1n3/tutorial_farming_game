@@ -1,13 +1,13 @@
 [gd_scene load_steps=9 format=4 uid="uid://djgp6uupxyytv"]
 
 [ext_resource type="TileSet" uid="uid://oofx51xxc764" path="res://tilesets/game_tile_set.tres" id="1_d616d"]
-[ext_resource type="PackedScene" uid="uid://ieuvqwp57wsg" path="res://scenes/object/harvest/tomato.tscn" id="2_my1un"]
+[ext_resource type="PackedScene" uid="uid://ieuvqwp57wsg" path="res://scenes/objects/harvest/tomato.tscn" id="2_my1un"]
 [ext_resource type="PackedScene" uid="uid://757uak6r8exy" path="res://scenes/characters/player/player.tscn" id="2_wb8xh"]
-[ext_resource type="PackedScene" uid="uid://cyc3cd3kbttyw" path="res://scenes/object/harvest/egg.tscn" id="3_yd1b4"]
-[ext_resource type="PackedScene" uid="uid://8se8epc7lryf" path="res://scenes/object/rocks/stone.tscn" id="4_obi5b"]
-[ext_resource type="PackedScene" uid="uid://k8dwoc2cndjf" path="res://scenes/object/trees/log.tscn" id="5_srlju"]
-[ext_resource type="PackedScene" uid="uid://bshqco5llb482" path="res://scenes/object/harvest/milk.tscn" id="6_bko35"]
-[ext_resource type="PackedScene" uid="uid://dpurt8pf50hjy" path="res://scenes/object/harvest/corn.tscn" id="7_0o3r5"]
+[ext_resource type="PackedScene" uid="uid://cyc3cd3kbttyw" path="res://scenes/objects/harvest/egg.tscn" id="3_yd1b4"]
+[ext_resource type="PackedScene" uid="uid://8se8epc7lryf" path="res://scenes/objects/rocks/stone.tscn" id="4_obi5b"]
+[ext_resource type="PackedScene" uid="uid://k8dwoc2cndjf" path="res://scenes/objects/trees/log.tscn" id="5_srlju"]
+[ext_resource type="PackedScene" uid="uid://bshqco5llb482" path="res://scenes/objects/harvest/milk.tscn" id="6_bko35"]
+[ext_resource type="PackedScene" uid="uid://dpurt8pf50hjy" path="res://scenes/objects/harvest/corn.tscn" id="7_0o3r5"]
 
 [node name="TestSceneCollectibles" type="Node2D"]
 y_sort_enabled = true
